@@ -14,77 +14,77 @@ Aplikasi web sederhana berbasis CodeIgniter 3 dengan fitur login, role-based acc
 ### Halaman Login
 Tampilan halaman login awal dengan ReCaptcha
 
-![Login Screenshot](login_page.png)
+![Login Screenshot](./screenshots/login_page.png)
 
 Validasi field username dan password
 
-![Login Field Validation Screenshot](login_without_password_or_username.png)
+![Login Field Validation Screenshot](./screenshots/login_without_password_or_username.png)
 
 Validasi ketika berusaha login tanpa ReCaptcha
 
-![Login ReCaptcha Validation Screenshot](login_without_recaptcha.png)
+![Login ReCaptcha Validation Screenshot](./screenshots/login_without_recaptcha.png)
 
 ### Dashboard
 Halaman Dashboard awal ketika berhasil login
 
-![Dashboard Screenshot](dashboard_page.png)
+![Dashboard Screenshot](./screenshots/dashboard_page.png)
 
 ### Halaman Maintenance User
 Halaman Maintenance User bagian atas, halaman maintenance user ini hanya bisa diakses dengan login role admin
 
-![Halaman User Screenshot](user_page_1.png)
+![Halaman User Screenshot](./screenshots/user_page_1.png)
 
 Halaman Maintenance User bagian bawah
 
-![Halaman User Screenshot](user_page_2.png)
+![Halaman User Screenshot](./screenshots/user_page_2.png)
 
 Tampilan tambah User
 
-![Tambah User Screenshot](add_user.png)
+![Tambah User Screenshot](./screenshots/add_user.png)
 
 Validasi field ketika hendak menambahkan User
 
-![Validasi Field Tambah User Screenshot](add_user_validation.png)
+![Validasi Field Tambah User Screenshot](./screenshots/add_user_validation.png)
 
 Validasi field email apakah email yang valid atau tidak
 
-![Validasi Field Email Screenshot](add_user_email_validation.png)
+![Validasi Field Email Screenshot](./screenshots/add_user_email_validation.png)
 
 ### Halaman Maintenance Artikel
 Halaman Artikel dengan login sebagai admin, ada fitur tambah artikel, edit artikel, dan hapus artikel
 
-![Halaman Artikel Login Admin Screenshot](artikel_page.png)
+![Halaman Artikel Login Admin Screenshot](./screenshots/artikel_page.png)
 
 Halaman Artikel dengan login sebagai editor, hanya ada tambah dan edit artikel tanpa hapus
 
-![Halaman Artikel Login Editor Screenshot](artikel_page_login_editor.png)
+![Halaman Artikel Login Editor Screenshot](./screenshots/artikel_page_login_editor.png)
 
 Halaman artikel dengan login sebagai user, user hanya bisa melihat tanpa bisa action apapun
 
-![Halaman Artikel Login User Screenshot](artikel_page_login_user.png)
+![Halaman Artikel Login User Screenshot](./screenshots/artikel_page_login_user.png)
 
 Halaman tambah artikel
 
-![Tambah Artikel Screenshot](add_artikel.png)
+![Tambah Artikel Screenshot](./screenshots/add_artikel.png)
 
 Validasi apakah type file yang diupload sesuai, yakni pdf atau Images
 
-![Validasi Type File Tambah Artikel Screenshot](add_artikel_file_type_validation.png)
+![Validasi Type File Tambah Artikel Screenshot](./screenshots/add_artikel_file_type_validation.png)
 
 Validasi besar file yang diupload tidak boleh lebih dari 2mb
-![Validasi Size File Tambah Artikel Screenshot](add_artikel_size_validation.png)
+![Validasi Size File Tambah Artikel Screenshot](./screenshots/add_artikel_size_validation.png)
 
 ### Other
 Halaman yang muncul ketika role tertentu mencoba akses halaman yang tidak diberi akses
 
-![Access Denied Screenshot](access_denied.png)
+![Access Denied Screenshot](./screenshots/access_denied.png)
 
 Ketika ingin memanggil API tapi tidak menyertakan Token yang didapat setelah login maka akan ditolak
 
-![Calling API without Token Screenshot](call_api_without_token.png)
+![Calling API without Token Screenshot](./screenshots/call_api_without_token.png)
 
 Ketika ingin memanggil API tapi menggunakan Token dari login role yang tidak sesuai maka akan ditolak
-![Calling API using Unauthorized Role Screenshot](call_api_using_unauthorized_role.png)
+![Calling API using Unauthorized Role Screenshot](./screenshots/call_api_using_unauthorized_role.png)
 
 ## 💡 Fitur
 - Login & Logout dengan ReCaptcha
