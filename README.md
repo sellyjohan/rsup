@@ -105,7 +105,7 @@ Atau gunakan tool seperti phpMyAdmin / DBeaver untuk import struktur database.
 ## ⚙️ Cara Menjalankan
 1. Clone repo ini:
    ```bash
-   git clone https://github.com/username/ci-user-management.git```
+   git clone https://github.com/sellyjohan/rsup.git```
    
 2. Buat database MySQL dan import database/rsup_db.sql
 
